@@ -18,7 +18,7 @@ Information about variables we were trying to predict-
 Value counts of loan_status in lending_df was
 0    75036
 1     2500
-O means helathy loans and 1 means loans at the high risk of defaulting
+0 means helathy loans and 1 means loans at the high risk of defaulting
 
 # Stages of Machine Learning Process for this analysis-
 During data preparation the lending_data.csv was read into a Pandas Dataframe.
@@ -34,7 +34,7 @@ Testing set: 19,384 records.
 A logistic regression model was used with the following parameters:
 - Solver: lbfgs
 - Maximum Iterations: 200
-- Randomn State: 1
+- Random State: 1
 This model was trained using the training datasets x_train, y_train.
 The model.predict(X_test) function was used to generate predictions for the testing dataset and stored the results in y_predictions.
 
