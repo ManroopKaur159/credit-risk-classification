@@ -1,6 +1,7 @@
 # Credit Risk Analysis Report
 
-# Overview of the Analysis- The purpose of this analysis is to evaluate the performance of a machine learning model in predicting the risk of loan default.
+# Overview of the Analysis
+The purpose of this analysis is to evaluate the performance of a machine learning model in predicting the risk of loan default.
 This analysis aims to determine whether a given loan is healthy (label 0) or at high risk of defaulting (label 1).
 The lending_data.csv file was read into a Pandas DataFrame.
 
@@ -29,7 +30,7 @@ The dataset was split into training and testing sets using train_test_split wher
 Training set: 58,152 records.
 Testing set: 19,384 records.
 
-#The Logistic Regression Model
+# The Logistic Regression Model
 A logistic regression model was used with the following parameters:
 - Solver: lbfgs
 - Maximum Iterations: 200
